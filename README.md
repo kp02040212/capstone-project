@@ -49,7 +49,7 @@ GitHub로부터 수집된 데이터셋은 아래 표 구조와 같이 탭(`\t`) 
 전처리 파이프라인 구동 시 내장된 `plot_label_distribution` 시각화 엔진이 자동으로 연동되어 샘플링된 3,000건 데이터의 실제 점유율 및 수량을 집계한 파이 차트와 바 차트를 **`plots/01_label_distribution.png`** 경로에 즉시 직렬화 저장합니다.
 
 <p align="center">
-<img src="02_training_metrics.png" alt="BERT 모델 에포크별 성능 지표 수렴 곡선 차트" width="90%" />
+<img src="01_label_distribution.png" alt="인터스텔라 프로젝트 라벨 분포 차트" width="85%" />
 </p>
 
 *※ 차트 내부의 한국어 자소 깨짐 결함을 근본적으로 방어하기 위해 실행 머신의 `platform.system()`을 동적 스캔하여 Windows(맑은 고딕), Mac OS(AppleGothic)용 표준 한글 폰트를 자동 임베딩합니다.*
@@ -69,7 +69,7 @@ GitHub로부터 수집된 데이터셋은 아래 표 구조와 같이 탭(`\t`) 
 루프 종료 시 코드에 연동된 `plot_training_results` 엔진을 통해 에포크별 손실 감쇠 곡선과 학습 vs 검증 정확도의 추세를 한눈에 평가할 수 있는 통합 지표 선 그래프 그래프를 **`plots/02_training_metrics.png`** 경로에 자동으로 생성 및 저장합니다.
 
 <p align="center">
-  <img src="./plots/02_training_metrics.png" alt="BERT 모델 에포크별 성능 지표 수렴 곡선 차트" width="90%" />
+<img src="02_training_metrics.png" alt="BERT 모델 에포크별 성능 지표 수렴 곡선 차트" width="90%" />
 </p>
 
 - **왼쪽 차트 (Loss Train Trend)**: 학습이 거듭될수록 예측 오류 오차가 안정적으로 완화 및 하향 수렴되는 상태를 직관적으로 추적합니다.
