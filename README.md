@@ -49,7 +49,7 @@ GitHub로부터 수집된 데이터셋은 아래 표 구조와 같이 탭(`\t`) 
 전처리 파이프라인 구동 시 내장된 `plot_label_distribution` 시각화 엔진이 자동으로 연동되어 샘플링된 3,000건 데이터의 실제 점유율 및 수량을 집계한 파이 차트와 바 차트를 **`plots/01_label_distribution.png`** 경로에 즉시 직렬화 저장합니다.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/kp02040212/capstone-project/interstellar/plots/01_label_distribution.png" alt="인터스텔라 프로젝트 라벨 분포 차트" width="85%" />
+<img src="01_label_distribution.png" alt="인터스텔라 프로젝트 라벨 분포 차트" width="85%" />
 ...
 </p>
 
